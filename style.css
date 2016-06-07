@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*雪碧图(l:大,m:中,s:小)*/
+.i_s_hotline,.i_l_hotline,.i_order,.i_range,.i_supply,.i_catering,.i_title_news,.i_title_food,.i_title_catering,.i_title_popular,.i_item_price,.i_item_order,.i_item_list,.i_map,.i_user,.i_memo,.i_location,.i_search,.i_wechat,.line{background: url(images/sprite.png) no-repeat;_background: url(images/spriteIE.png) no-repeat;vertical-align: middle;}
+.i_s_hotline{width: 11px; height: 11px;}
+.ico_s_hotline{background-position: -245px -284px;}
+.i_l_hotline{width: 19px; height: 19px;}
+.ico_l_hotline{background-position: -214px -276px;}
+.i_order,.i_range,.i_supply,.i_catering{width: 120px;height: 120px;}
+.ico_order{background-position: 0 0;}
+.ico_order:hover{background-position: 0 -126px;}
+.ico_range{background-position: -127px 0;}
+.ico_range:hover{background-position: -127px -126px;}
+.ico_supply{background-position: -259px 0;}
+.ico_supply:hover{background-position: -259px -127px;}
+.ico_catering{background-position: -397px 0;}
+.ico_catering:hover{background-position: -397px -126px;}
+.i_title_news{width: 32px;height: 38px;}
+.ico_title_news{background-position: 0 -257px;}
+.i_title_food{width: 29px;height: 33px;}
+.ico_title_food{background-position: -41px -262px;}
+.i_title_popular{width:41px;height: 45px;}
+.ico_title_popular{background-position: -75px -250px;}
+.i_title_catering{width: 31px;height: 33px;}
+.ico_title_catering{background-position: -127px -262px;}
+.i_item_price,.i_item_order{width: 9px;height: 13px;}
+.ico_item_price{background-position: -169px -281px;}
+.ico_item_order{background-position: -182px -281px;}
+.i_item_list{width:4px;height: 6px;}
+.ico_item_list{background-position: -195px -289px;}
+.i_map{width: 13px;height: 13px;}
+.ico_map{background-position: -261px -283px;}
+.i_user{width: 12px;height: 13px;}
+.ico_user{background-position:-277px -283px;}
+.i_memo{width: 15px;height: 13px;}
+.ico_memo{background-position: -294px -283px;}
+.i_location{width: 9px;height: 13px;}
+.ico_location{background-position: -317px -282px;}
+.i_search{width: 13px;height: 14px;}
+.ico_search{background-position: -332px -282px;}
+.i_wechat{width: 14px;height: 11px;}
+.ico_wechat{background-position: -351px -284px;}
+.line{width: 933px;height: 15px; background-position: 0 -298px;}
+
+.header{height: 65px; line-height: 65px; background: #363636;}
+.headerMain{width: 950px;position: relative;}
+.logForm{margin-top: 8px;}
+.logForm li{float: none;line-height: 23px;}
+.logForm input{height: 18px;line-height: 18px;border: 1px solid #8a8583;border-radius: 12px;}
+.headerNav{height: 104px;line-height: 104px;}
+.logo{font-size: 44px;color: #ff9701;}
+.nav a{width: 87px; font-size: 14px;color: #212121;display: inline-block;text-align: right;}
+/*菜谱hover*/
+.nav-h{padding-top: 30px; position: absolute;left: 430px; width: 113px;background: rgba(255,150,0,.8);z-index: 1;}
+.nav-h li{float: none;width: 113px; line-height: 36px;border-bottom: 1px solid rgba(250,210,150,.3);}
+.nav-h li a{padding-left: 20px;display:block;font-size: 12px;color: #fff;}
+.nav-h li a:hover{background: #f56b00;}
+
+/*大图*/
+.banner-bg{position: relative; height: 401px; background: url(images/banner_bg.jpg) center no-repeat;}
+.banner{position: relative;width: 960px;height: 401px;overflow: hidden;}
+.scroll{width: 9000px;}
+.scroll img{width: 944px;height: 393px; border: 8px solid #fff;border-top: none;}
+.banner a{display: none; width: 67px;height: 66px;line-height: 66px; position: absolute;top: 162px; font-size: 54px;color: #000;background:#fff9f0;opacity: 0.5; border-radius: 6px;text-align: center;}
+.arr_left{left: 20px;}
+.arr_right{right: 20px;}
+.banner-bg:hover a{display: block;}
+.list-item{position: absolute;left: 50%;bottom: 48px; margin-left: -60px;}
+.list-item li{width: 12px;height: 12px;border-radius: 20px; margin-right: 12px; background: rgba(122,122,122,.8);box-shadow: inset 0 5px 5px rgba(0,0,0,.75);cursor: pointer;}
+.list-item li.on{background: rgba(250,147,0,.8);box-shadow: none;}
+
+/*在线订餐*/
+.online-bg{height: 259px; background: #363636; border-bottom: 7px solid #b4b4b4;}
+.onlineBox{position: relative; width: 960px;}
+.onlineBox h2{padding: 35px 0 15px;font-size: 32px;color: #fff;}
+.explain{text-indent: 2em;font-size: 14px;color: #a9a9a9;}
+
+.onlineMain{position: relative; background: url(images/main_bg.jpg) center repeat-y;}
+.online{padding-top: 253px; width: 980px;background: url(images/bg.jpg) center repeat-y;}
+.onlineStep{position: absolute;top:-70px;left: 50%;margin-left: -480px; width: 960px; overflow: hidden;}
+.onlineStep li{margin:0 16px; width: 203px; text-align: center;cursor: pointer;}
+.onlineStep li h5{margin: 17px 0 12px;font-size: 18px;color: #000;}
+.onlineStep li p{line-height: 20px; font-size: 12px;color: #797979;}
+
+.online h2{padding: 34px 0 39px 28px;font-size: 32px; color: #363636;}
+.online h2 i{margin-right: 18px;}
+/*新闻公告*/
+.onlineNews{padding-left: 10px;}
+.onlineNews h2{padding-left: 17px;}
+.onlineNews img{float: left; width: 568px;height: 391px;}
+.onlineNews ul{padding: 28px 46px 0 0;}
+.onlineNews ul li{line-height: 30px; float: none; border-bottom: 1px dashed #a1a1a1;}
+.onlineNews ul li a{font-size: 14px;color:#363636;}
+
+/*每日套餐*/
+.week{width: 980px; height: 69px;line-height: 69px; border-radius: 12px; background: #414141;}
+.week li{width: 140px;font-size: 18px;color: #fcd888;text-align: center;cursor: pointer;border-radius: 12px;}
+.week li.hover{background: #ff9701;color: #fff;}
+.onlinePackage h3{padding: 65px 0 0 62px;font-size: 24px;color: #363636;}
+.title-line{ width: 790px;height: 1px;line-height: 1px;background: #e8e7e4;}
+
+.weekPackage{padding: 13px 10px 0;}
+.weekPackage li{margin-right: 70px;padding-bottom: 90px; width: 272px;text-align: center;position: relative;}
+.weekPackage li img{width: 272px;height: 197px;}
+.weekPackage li h4{padding: 3px 0 12px; font-size: 20px;color:#ff9701;}
+.weekPackage li p{font-size: 12px;color: #666666;}
+.weekPackage li a.booking{position: absolute;left: 65px;top: 142px;}
+
+/*配餐中心*/
+.cateringCenter{margin-top: -10px;}
+.catering-banner{position: relative; padding: 0 10px;}
+.catering_arr_left,.catering_arr_right{position: absolute;top: 50%; margin-top: -43px; width: 70px;height: 70px;line-height: 70px; font-size: 56px;color: #000;background: rgba(0,0,0,.5); opacity: .5; text-align: center; display: inline-block;}
+.catering_arr_left{left: -60px;}
+.catering_arr_right{right: -61px;}
+.cateringCenter .list-item{position: absolute;left: 50%;bottom: 20%; margin-left: -60px;}
+.cateringCenter .list-item li{width: 12px;height: 12px;border-radius: 20px; margin-right: 12px; background: rgba(122,122,122,.8);box-shadow: inset 0 5px 5px rgba(0,0,0,.75);cursor: pointer;}
+.cateringCenter .list-item li.on{background: rgba(250,147,0,.8);box-shadow: none;}
+
+/*最受欢迎*/
+.popular{padding-bottom: 20px;}
+.popular li p{margin-bottom: 23px;}
+.booking{width: 136px;height: 40px;line-height: 40px;border-radius: 6px; font-size: 16px;text-align: center;display: inline-block;}
+.price i{margin-right: 6px;}
+.price{background: #414141; color: #fcd888;}
+/*hover出现订购效果*/
+.order{background: #ff9701;color: #fff;} 
+.order i{margin-right: 30px;}
+.popular li .booking{top: 310px!important;}
+
+/*底部*/
+.foot-bg{height: 221px; background: #a9a9a9;}
+.footer{width: 980px;}
+.foot-main{padding: 20px 10px 0;}
+.foot-list li{float: none;margin-right: 30px; line-height: 23px; font-size: 12px;color: #4e4e4e;}
+.foot-list li h5,.link h5{font-size: 16px;color: #000; padding-bottom: 5px;}
+.foot-list li i{margin-right: 4px;}
+.link{float: right;padding-right: 60px; width: 225px;}
+.link li a{font-size: 12px;color: #4e4e4e;padding-right: 22px;}
+.copyRight-bg{height: 74px; background: #000;font-size: 12px; color: #747373;}
+.copyRight-bg ul li a{margin-right: 15px; display: inline-block;}
+.copyRight-bg p span{float: right;margin-right: -90px;}
